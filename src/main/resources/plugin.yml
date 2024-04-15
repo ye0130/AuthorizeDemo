@@ -1,0 +1,5 @@
+name: AuthorizeDemo
+version: '${project.version}'
+main: me.yeezhi.demoauthorize.DemoAuthorize
+depend:
+  - SimpleLib

@@ -11,7 +11,7 @@ public final class AuthorizeDemo extends JavaPlugin {
         saveDefaultConfig();
         reloadConfig();
 
-        SimpleLib.getAuthorizeManage().register(this, "25ae4dbe98b19fd6ae", getConfig().getString("config.code"), () -> {
+        SimpleLib.getAuthorizeManage().register(this, "25ae4dbe98b19fd6", getConfig().getString("config.code"), () -> {
             // Runnable 内写插件授权成功后执行的代码
             getLogger().info("插件正在初始化");
         });

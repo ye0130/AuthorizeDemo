@@ -58,6 +58,10 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>yezhitao-Home-public</id>
+            <url>https://yezhitao-maven.pkg.coding.net/repository/Home/public/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -68,9 +72,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>me.qingshou</groupId>
-            <artifactId>SimpleLib</artifactId>
-            <version>1.3.1-beta4</version>
+            <groupId>me.yeezhi</groupId>
+            <artifactId>authorize-sdk</artifactId>
+            <version>1.0.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
